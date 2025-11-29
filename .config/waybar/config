@@ -22,8 +22,6 @@
 "margin-right": 8,
 
 "modules-left": [
-	//"idle_inhibitor",
-	//"custom/separator#blank",
 	"clock",
         "custom/separator#blank",	
 	"tray",
@@ -36,9 +34,8 @@
 	],
 
 "modules-right": [
-        //"mpris",
-        //"custom/separator#dot-line",
-        "group/notify",	
+        "hyprland/language",
+        "custom/separator#blank",
 	"battery",
 	"custom/separator#blank",  
 	"group/audio",

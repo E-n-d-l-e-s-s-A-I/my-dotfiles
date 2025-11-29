@@ -26,7 +26,7 @@
 
 "custom/tty": {
 	"format": " ",
-	"on-click": "$HOME/.config/hypr/scripts/WaybarScripts.sh --term",
+	"on-click": "$SCRIPTS_PATH/WaybarScripts.sh --term",
 	"tooltip": true,
 	"tooltip-format": "Launch Terminal",
 },
@@ -40,7 +40,7 @@
 
 "custom/settings": {
 	"format": " ",
-	"on-click": "$HOME/.config/hypr/scripts/Kool_Quick_Settings.sh",
+	"on-click": "$SCRIPTS_PATH/Kool_Quick_Settings.sh",
 	"tooltip": true,
 	"tooltip-format": "Launch KooL Hyprland Settings Menu",
 },
@@ -49,22 +49,22 @@
 	"format": " ",
 	"on-click": "$HOME/.config/hypr/UserScripts/WallpaperSelect.sh",
 	"on-click-right": "$HOME/.config/hypr/UserScripts/WallpaperRandom.sh",
-	"on-click-middle": "$HOME/.config/hypr/scripts/WaybarStyles.sh",
+	"on-click-middle": "$SCRIPTS_PATH/WaybarStyles.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Wallpaper Menu\nMiddle Click: Random wallpaper\nRight Click: Waybar Styles Menu",
 },
 
 "custom/hint": {
 	"format": "󰺁 HINT!",
-	"on-click": "$HOME/.config/hypr/scripts/KeyHints.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/KeyBinds.sh",
+	"on-click": "$SCRIPTS_PATH/KeyHints.sh",
+	"on-click-right": "$SCRIPTS_PATH/KeyBinds.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Quick Tips\nRight Click: Keybinds",
 },
 
 "custom/dot_update": {
 	"format": " 󰁈 ",
-	"on-click": "$HOME/.config/hypr/scripts/KooLsDotsUpdate.sh",
+	"on-click": "$SCRIPTS_PATH/KooLsDotsUpdate.sh",
 	"tooltip": true,
 	"tooltip-format": "Check KooL Dots update\nIf available",
 },
@@ -76,8 +76,8 @@
 	"escape": true,
 	"exec-on-event": true,
 	"interval": 60,
-	"exec": "$HOME/.config/hypr/scripts/Hypridle.sh status",
-	"on-click": "$HOME/.config/hypr/scripts/Hypridle.sh toggle",
+	"exec": "$SCRIPTS_PATH/Hypridle.sh status",
+	"on-click": "$SCRIPTS_PATH/Hypridle.sh toggle",
 	"on-click-right": "hyprlock"
 },
 
@@ -85,13 +85,13 @@
 	"exec": "cat $HOME/.cache/kb_layout",
 	"interval": 1,
 	"format": " {}",
-	"on-click": "$HOME/.config/hypr/scripts/SwitchKeyboardLayout.sh",
+	"on-click": "$SCRIPTS_PATH/SwitchKeyboardLayout.sh",
 },
 
 "custom/light_dark": {
 	"format": "󰔎 ",
-	"on-click": "$HOME/.config/hypr/scripts/DarkLight.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/WaybarStyles.sh",
+	"on-click": "$SCRIPTS_PATH/DarkLight.sh",
+	"on-click-right": "$SCRIPTS_PATH/WaybarStyles.sh",
 	"on-click-middle": "$HOME/.config/hypr/UserScripts/WallpaperSelect.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Switch Dark-Light Themes\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Styles Menu",
@@ -99,7 +99,7 @@
 
 "custom/lock": {
 	"format": "󰌾",
-	"on-click": "$HOME/.config/hypr/scripts/LockScreen.sh",
+	"on-click": "$SCRIPTS_PATH/LockScreen.sh",
 	"tooltip": true,
 	"tooltip-format": "󰷛 Screen Lock",
 },
@@ -108,13 +108,13 @@
 	"format": "  ",
 	"on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
 	"on-click-middle": "$HOME/.config/hypr/UserScripts/WallpaperSelect.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/WaybarLayout.sh",
+	"on-click-right": "$SCRIPTS_PATH/WaybarLayout.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Rofi Menu\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Layout Menu",
 },
 // This is a custom cava visualizer
 "custom/cava_mviz": {
-	"exec": "$HOME/.config/hypr/scripts/waybarcava.sh",
+	"exec": "$SCRIPTS_PATH/waybarcava.sh",
 	"format": "{}"
 },
 
@@ -127,15 +127,15 @@
 	"on-click": "playerctl previous",
 	"on-click-right": "playerctl next",
 	"scroll-step": 5.0,
-	"on-scroll-up": "$HOME/.config/hypr/scripts/volume.sh --inc",
-	"on-scroll-down": "$HOME/.config/hypr/scripts/volume.sh --dec",
+	"on-scroll-up": "$SCRIPTS_PATH/volume.sh --inc",
+	"on-scroll-down": "$SCRIPTS_PATH/volume.sh --dec",
 	"smooth-scrolling-threshold": 1,
 },
     
 "custom/power": {
 	"format": "⏻",
-	"on-click": "$HOME/.config/hypr/scripts/Wlogout.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh",
+	"on-click": "$SCRIPTS_PATH/Wlogout.sh",
+	"on-click-right": "$SCRIPTS_PATH/ChangeBlur.sh",
 	"tooltip": true,
 	"tooltip-format":"Logout Menu",
 },
@@ -182,7 +182,7 @@
 	"exec": "checkupdates | wc -l",
 	"exec-if": "[[ $(checkupdates | wc -l) ]]",
 	"interval": 43200, // (Arch Linux will try to check 12 hrs interval only
-	"on-click": "$HOME/.config/hypr/scripts/Distro_update.sh",
+	"on-click": "$SCRIPTS_PATH/Distro_update.sh",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Update System\nArch (w/ notification)\nFedora, OpenSuse, Debian/Ubuntu click to update",
 },
