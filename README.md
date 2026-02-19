@@ -2,9 +2,9 @@
 
 # dotfiles
 
-*minimalist arch + hyprland setup with dynamic color theming via matugen*
+*arch + minimalist hyprland rice with dynamic color theming via matugen*
 
-`arch` · `hyprland` · `waybar` · `matugen` · `swww`
+[`arch`](https://archlinux.org/) · [`hyprland`](https://hypr.land/) · [`waybar`](https://github.com/Alexays/Waybar) · [`matugen`](https://github.com/InioX/matugen) · [`swww`](https://github.com/LGFae/swww)
 
 <br>
 
