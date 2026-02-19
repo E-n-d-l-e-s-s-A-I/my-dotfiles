@@ -1,6 +1,6 @@
 <div align="center">
 
-# my arch linux dotfiles
+# My Arch linux dotfiles
 
 minimalist hyprland rice with dynamic color theming via matugen*
 
