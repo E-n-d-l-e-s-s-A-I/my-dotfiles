@@ -8,9 +8,8 @@
 
 <br>
 
-![demo](assets/screen2.jpg)
+![demo](assets/demo.gif)
 
 <br>
-
 
 </div>
