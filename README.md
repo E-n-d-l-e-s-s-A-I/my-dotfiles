@@ -1,8 +1,8 @@
 <div align="center">
 
-# dotfiles
+# my arch linux dotfiles
 
-*arch + minimalist hyprland rice with dynamic color theming via matugen*
+minimalist hyprland rice with dynamic color theming via matugen*
 
 [`arch`](https://archlinux.org/) · [`hyprland`](https://hypr.land/) · [`waybar`](https://github.com/Alexays/Waybar) · [`matugen`](https://github.com/InioX/matugen) · [`swww`](https://github.com/LGFae/swww)
 
